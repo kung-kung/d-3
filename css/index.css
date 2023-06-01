@@ -1,0 +1,114 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fff;
+    color: inherit;
+    font-size: 14px;
+    font-family: "돋움";
+}
+li, ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+img{
+    vertical-align: top;
+}
+table{
+    border-collapse: collapse;
+}
+
+#wrap{
+    width: 100%;
+    height: 970px;
+    background-color: #ddd;
+
+}
+#left{
+    width: 200px;
+    height: 950px;
+    float: left;
+}
+
+.logo{
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.nav{
+    width: 160px;
+    margin: 0 auto;
+
+}
+.main{}
+.main>li{
+    position: relative;
+}
+.main>li>a{
+    background-color: ivory;
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.sub{
+    position: absolute;
+    width: 1200%;
+    background-color: rgba(255, 255, 255, .8);
+    left: 170px;
+    padding-left: 40px;
+    top: 0;
+}
+.sub li{
+    display: inline-block;
+}
+.sub li a{
+    padding-right: 30px;
+    display: block;
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+}
+
+
+.spot{
+    margin-top: 20px;
+}
+.spot ul{
+    
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.spot ul li{
+    display: inline-block;
+    
+}
+.spot ul li a{}
+
+
+
+
+
+#right{
+    width: calc(100% - 200px);
+    height: 850px;
+    float: right;
+}
+#ft{
+    width: 100%;
+    height: 120px;
+    clear: both;
+}
